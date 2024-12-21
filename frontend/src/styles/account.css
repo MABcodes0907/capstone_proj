@@ -1,0 +1,47 @@
+.account{
+    display: flex;
+    flex-direction: column;
+    margin: 60px 10px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: absolute;
+}
+.account-display{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.account-styles{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    padding: 15px 20px;
+    border-radius: 20px;
+    background-color: white;
+    font-weight: 500;
+}
+.account-styles-active{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    padding: 15px 20px;
+    border-radius: 20px;
+    background-color: aqua;
+    font-weight: 500;
+}
+.account-profile{
+    display: flex;
+    flex-direction: column;
+}
+.logout-button{
+    background-color: aqua;
+    border: none;
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: 500;
+}

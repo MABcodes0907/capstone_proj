@@ -1,0 +1,54 @@
+.booking{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    position: absolute;
+    margin: 60px 0;
+    width: 100%;
+}
+.book-detail{
+    margin: 0 20px;
+    flex: 1;
+}
+.book-pic{
+    width: 100%;
+}
+.book-title{
+    font-size: 30px;
+}
+.user-title{
+    margin: 0 30px;
+    font-size: 30px;
+}
+.user-info{
+    flex: 3;
+}
+.form-info{
+    display: flex;
+    gap: 20px;
+}
+.form{
+    margin: 0 30px;
+    width: 100%;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr 1fr 1fr;
+    border: solid 1px #050505;
+    border-radius: 20px;
+    padding: 20px;
+}
+.input-box{
+    padding: 10px;
+}
+.book-bt{
+    background-color: #050505;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    width: 50%;
+}
+.booking-input{
+    font-size: 15px;
+    padding: 10px;
+}
