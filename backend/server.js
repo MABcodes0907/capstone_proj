@@ -30,10 +30,6 @@ app.use('/adminprofile', require('./routes/adminprofile'));
 app.use('/adminlogout', require('./routes/adminlogout'));
 
 
-app.use('/adminlogout', require('./routes/adminlogout'));
-
-
-
 mongoose.connection.once('open', () => {
     console.log('Connected to MongoDB');
     app.listen(PORT, () => { console.log(`Server running on port ${PORT}`) });
